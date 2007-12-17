@@ -10,7 +10,6 @@ License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/%{module}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-root
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::MethodMaker)
