@@ -1,6 +1,6 @@
 %define module	Term-ProgressBar
 %define version 2.09
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary:	Provides a progress meter on a standard terminal
 Name:		perl-%{module}
