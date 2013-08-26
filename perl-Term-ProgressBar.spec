@@ -1,19 +1,21 @@
 %define upstream_name	 Term-ProgressBar
-%define upstream_version 2.09
+%define upstream_version 2.14
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Provides a progress meter on a standard terminal
 License:	GPL+ or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/Term-ProgressBar-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::MethodMaker)
 BuildRequires:	perl(Term::ReadKey)
+BuildRequires:	perl(Test::Exception)
+BuildRequires:	perl(Capture::Tiny)
 BuildArch:	noarch
 
 %description
@@ -76,4 +78,5 @@ make test
 
 * Mon Jan 17 2005 Stefan van der Eijk <stefan@mandrakesoft.com> 2.06-0.r1.1mdk
 - New release 2.06-r1
+
 
