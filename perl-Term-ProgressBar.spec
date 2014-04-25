@@ -40,6 +40,6 @@ make test
 %files
 %{perl_vendorlib}/Term/ProgressBar.pm
 %{_mandir}/*/*
-%{perl_vendorlib}Term/ProgressBar/IO.pm
+# %{perl_vendorlib}Term/ProgressBar/IO.pm
 
 
