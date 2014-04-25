@@ -1,4 +1,5 @@
 removed_sources:
   Term-ProgressBar-2.09.tar.bz2: a596098a75758cfd0c09d73955cb01264cc2b781
-sources:
   Term-ProgressBar-2.14.tar.gz: 4835fc6941ee32dfe954fb3e137d22b4a47d91e8
+sources:
+  Term-ProgressBar-2.15.tar.gz: d796df3dc89cbd2656c797e303e40fbf1f2b2857
