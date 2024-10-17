@@ -9,7 +9,7 @@ Summary:	Provides a progress meter on a standard terminal
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{upstream_name}
+URL:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
