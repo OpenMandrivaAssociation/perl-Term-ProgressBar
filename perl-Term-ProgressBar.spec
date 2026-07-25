@@ -1,16 +1,16 @@
 %define upstream_name	 Term-ProgressBar
-%define upstream_version 2.15
+%define upstream_version 2.23
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Provides a progress meter on a standard terminal
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/%{upstream_name}-%{upstream_version}.tar.gz
+URL:		https://github.com/manwar/Term-ProgressBar
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MANWAR/Term-ProgressBar-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
